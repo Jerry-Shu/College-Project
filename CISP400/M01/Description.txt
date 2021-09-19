@@ -1,0 +1,38 @@
+/*
+Write your code on the Power Server using ssh with nano or write it on your Linux machine and upload it using an sftp client.
+(4 pts): Write a source file named M01.cpp that takes an operation followed by two operands and outputs the result. For example:
+
++ 100 3.14
+= 103.14
+
+* 4 5
+= 20
+
+- 4 10
+= -6
+
+/ 4 2
+= 2
+
+Read the operation into a string and use an if-statement to figure out which operation the user wants
+eg if (operation=="+") ... else if(...)
+Read the operands into variables of type double
+
+Do not allow the user to divide by zero.
+Do not use a loop, just read one set of inputs and then exit
+
+(6 pts):  makefile
+Write your compile and link steps separately.
+3 points for creating M01.o
+3 points for creating M01, the executable
+Scoring
+Your code must compile and link to receive credit
+Put your code in a subfolder of your home directory called M01:  ~/M01
+Name your source file M01.cpp
+Name your executable M01
+On the Power Server, from the directory with your source file, header file, and makefile, run the following command:
+/home1/hermler/scripts/M01/M01Grader
+This will test your makefile and each operand and give you a score out of 10
+Shortly after the due date I will run the same script to record your score and then upload it to Canvas.
+*/
+
