@@ -1,5 +1,5 @@
-# SCC-School-Project
-This folder including some project made in SCC.
+# Project
+This folder including some project made in college.
 
 
      
